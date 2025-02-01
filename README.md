@@ -50,3 +50,29 @@
 ---
 
 **참고**: 이 범위는 기본적인 웹 애플리케이션의 핵심 기능을 포함하고 있으며, 프로젝트의 특성에 맞게 추가적인 기능을 확장할 수 있습니다.
+
+# 프로젝트 파일 트리 구조
+
+```
+web1
+├─ app.js
+├─ js
+│  └─ script.js
+├─ LICENSE
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ cover.html
+│  ├─ images
+│  │  └─ noeul.jpg
+│  ├─ index.html
+│  ├─ my.html
+│  ├─ style
+│  │  ├─ cover.css
+│  │  ├─ index.css
+│  │  ├─ my.css
+│  │  └─ time.css
+│  └─ time.html
+└─ README.md
+
+```
