@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 20px;
+  background-color: black;
+}
+.board-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.post h3 {
+  margin: 0;
+}
+.post p {
+  margin: 10px 0;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

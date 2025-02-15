@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>간단한 게시판</title>
+    <link rel="stylesheet" href="./style/post.css" />
+    <script src="./js/post.js"></script>
+  </head>
+  <body>
+    <div class="board-container">
+      <h1>간단한 게시판</h1>
+
+      <div>
+        <h2>새 글 작성</h2>
+        <div class="form-group">
+          <label for="postTitle">제목:</label>
+          <input
+            type="text"
+            id="postTitle"
+            placeholder="제목을 입력하세요"
+            style="width: 100%; padding: 8px"
+          />
+        </div>
+        <div class="form-group">
+          <label for="postContent">내용:</label>
+          <textarea
+            id="postContent"
+            placeholder="내용을 입력하세요"
+            rows="4"
+            style="width: 100%; padding: 8px"
+          ></textarea>
+        </div>
+        <button onclick="submitPost()">게시</button>
+      </div>
+
+      <hr />
+
+      <div id="postsList">
+        <h2>게시글</h2>
+      </div>
+    </div>
+  </body>
+</html>
