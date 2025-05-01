@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif; /* 글꼴 설정 */
+  margin: 0; /* 기본 여백 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  height: 100vh; /* 화면 전체 높이 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* 글씨를 중앙 정렬 */
+}
